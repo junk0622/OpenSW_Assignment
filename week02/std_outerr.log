@@ -1,0 +1,12 @@
+==> file1.txt <==
+Hello, junekyoung Lee!
+
+A
+AA
+AAA
+AA's
+AB
+ABC
+ABC's
+ABCs
+head: cannot open 'no_exist.txt' for reading: No such file or directory

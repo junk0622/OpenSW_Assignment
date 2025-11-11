@@ -1,0 +1,26 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 22:34 ?        00:00:00 /sbin/init
+root           2       1  0 22:34 ?        00:00:00 /init
+root           6       2  0 22:34 ?        00:00:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          42       1  0 22:34 ?        00:00:00 /usr/lib/systemd/systemd-journald
+root          93       1  0 22:34 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+systemd+     104       1  0 22:34 ?        00:00:00 /usr/lib/systemd/systemd-resolved
+systemd+     105       1  0 22:34 ?        00:00:00 /usr/lib/systemd/systemd-timesyncd
+root         157       1  0 22:34 ?        00:00:00 /usr/sbin/cron -f -P
+message+     158       1  0 22:34 ?        00:00:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         165       1  0 22:34 ?        00:00:00 /usr/lib/systemd/systemd-logind
+root         167       1  0 22:34 ?        00:00:00 /usr/libexec/wsl-pro-service -vv
+root         179       1  0 22:34 hvc0     00:00:00 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+syslog       188       1  0 22:34 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         190       1  0 22:34 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         199       1  0 22:34 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         283       2  0 22:34 pts/1    00:00:00 /bin/login -f
+jk           334       1  0 22:34 ?        00:00:00 /usr/lib/systemd/systemd --user
+jk           335     334  0 22:34 ?        00:00:00 (sd-pam)
+jk           346     283  0 22:34 pts/1    00:00:00 -bash
+root         374       2  0 22:35 ?        00:00:00 /init
+root         376     374  0 22:35 ?        00:00:00 /init
+jk           378     376  0 22:35 pts/0    00:00:00 -bash
+root         525      93  0 22:57 ?        00:00:00 (udev-worker)
+root         526      93  0 22:57 ?        00:00:00 (udev-worker)
+jk           527     378  0 22:57 pts/0    00:00:00 ps -ef

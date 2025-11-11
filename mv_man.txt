@@ -1,0 +1,5 @@
+MV(1)                                  User Commands                                 MV(1)
+
+NAME
+       mv - move (rename) files
+
