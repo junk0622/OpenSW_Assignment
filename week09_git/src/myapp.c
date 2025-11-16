@@ -13,9 +13,9 @@ double calculate(char* op, double a, double b){
         return mymul(a, b);
     } else if (strcmp(op, "/") == 0) {
         return mydiv(a, b);
-    } else if (strcmp(op, "%") == 0) {
+    } else if (strcmp(op, "%") == 0) { // advanced 브랜치 내용
         return mymod(a, b);
-    } else if (strcmp(op, "^") == 0) {
+    } else if (strcmp(op, "^") == 0) { // advanced 브랜치 내용
         return mypow(a, b);
     } else {
         printf("Unsupported operation: %s\n", op);
@@ -31,7 +31,7 @@ int main(void){
     printf("Enter expression (e.g. 1 + 2): ");
     scanf("%lf %s %lf", &a, op, &b);
     printf("Result = %.2lf\n", calculate(op, a, b));
-    printf("~~~ Good bye. See you again ~~~\n\n"); // 이 줄 추가
+    printf("~~~ Good bye. See you again ~~~\n\n"); // main 브랜치 내용
 
     return 0;
 }
